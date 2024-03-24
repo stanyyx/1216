@@ -1,0 +1,10 @@
+Сделаем форк репозитория по ссылке: https://github.com/netology-code/git-2-homeworks
+Скачаем архив изменений и распакуем его, получим папку git-2-homeworks-fork.
+Откроем терминал и перейдем в папку git-2-homeworks-fork.
+Свяжем локальный репозиторий с форком репозитория с помощью команды: git remote add origin https://github.com/your-username/git-2-homeworks
+Выполним команду git push -u origin main и прочитаем сообщение об ошибке отправки изменений.
+Заберем актуальную версию данных из удаленного репозитория с помощью команды: git pull origin main
+Разрешим конфликт в файлах, если они появились.
+Добавим изменения с помощью команды: git add .
+Сделаем коммит с разрешением конфликта: git commit -m "Resolve conflict"
+И отправим изменения на GitHub с помощью команды: git push origin main
